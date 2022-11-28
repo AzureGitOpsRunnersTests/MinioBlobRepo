@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: s3-bucket-content
-  name: vote-back
+  name: vote-back-s3-bucket-content
   labels:
     name: vote-back
 spec:
@@ -14,8 +13,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  namespace: s3-bucket-content
-  name: vote-front
+  name: vote-front-s3-bucket-content
   labels:
     name: vote-front
 spec:
